@@ -27,14 +27,9 @@ namespace HelloWorld
             this.InitializeComponent();
         }
 
-        private void clickButton_Click(object sender, RoutedEventArgs e)
+        private void clickButton_Click_1(object sender, RoutedEventArgs e)
         {
-            
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            
+            textBox.Text = "Hello World! This is my first UWP app!";
         }
     }
 }

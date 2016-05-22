@@ -7,15 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="Azure">
-        <TextBlock />
-        <Button Content="Click" HorizontalAlignment="Center" Click="Button_Click"/>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="2*"/>
-            <RowDefinition Height="3*"/>
-           
-        </Grid.RowDefinitions>
-    </Grid>
-    
+    <StackPanel Background="Azure" Orientation="Horizontal" VerticalAlignment="Top">
+        <TextBox x:Name="textBox" MinWidth="200"/>
+        <Button x:Name="clickButton" Content="Click" HorizontalAlignment="Stretch" Click="clickButton_Click_1" VerticalAlignment="Top"/>
+    </StackPanel>
+
+
 </Page>
